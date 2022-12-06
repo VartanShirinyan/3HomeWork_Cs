@@ -3,7 +3,7 @@
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125 */
 
-Console.WriteLine("Enter a number (Введите число");
+Console.WriteLine("Enter a number (Введите число)");
 int N = Convert.ToInt32(Console.ReadLine());
 for (int i = 1; i <= N; i++)
     Console.WriteLine(Math.Pow(i, 3));
